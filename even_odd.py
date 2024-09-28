@@ -1,6 +1,8 @@
-num=int(input("enter the number :"))
+#Write a Python Program to Check if a Number is Odd or Even.
+num=float(input("Enter the number"))
 print(num)
 if num%2==0:
-    print("your number is even")
+    print("number is even")
 else:
-    print("your number is odd")
+    print("number is odd")
+

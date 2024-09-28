@@ -1,4 +1,5 @@
-string="AkshadaAwari"
-vowels="aeiouAEIOU"
-vowels_count= sum(string.count(vowel)for vowel in vowels)
-print(vowels_count)
+#Write a Python program to print "Hello Python".
+print("hello world")
+a="hello"
+b="python"
+print(a+b)
