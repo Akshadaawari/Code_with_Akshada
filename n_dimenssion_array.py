@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array(11)
+b=np.array([1,2,3])
+c=np.array([[11,12,13],[15,16,17]])
+d=np.array([[[22,23,24,25],[33,34,35,36]]])
+print(a,b,c,d)
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
