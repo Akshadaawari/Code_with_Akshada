@@ -1,3 +1,5 @@
-#.Create a list of 5 integers and print the third element of the list.
-list=[1,2,3,4,5]
-print(list[2])
+#5.Write a Python function to find the largest number in a list
+def maximum(list):
+    return max(list)
+l=[1,2,3,4,5]
+print(maximum(l))

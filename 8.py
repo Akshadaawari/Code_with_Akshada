@@ -1,4 +1,6 @@
-#Write a program to find the largest number in a list of numbers. Example: [5, 12, 8, 21, 3]
-list=[5,12,8,21,3]
-large_no=max(list)
-print(large_no)
+#.Write a program to check if a string is a palindrome.
+str=input("Enter the string  :")
+if str==str[::-1]:
+    print("String is palindrome")
+else:
+    print("String is not palindrome")

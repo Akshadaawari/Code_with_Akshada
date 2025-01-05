@@ -1,4 +1,7 @@
-#Write a Python program to calculate the sum of two numbers: 15 and 20.
-x=15
-y=20
-print("The sum of the two numbers",x+y)
+#3.Write a Python function to reverse a string.
+def rev(str):
+    return (str[::-1])
+y="AKshada"
+print(rev(y))
+
+
